@@ -1,0 +1,285 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height:0; 
+	clear:both; 
+	visibility: hidden;}   /*清除浮动*/
+.clearfix {
+	*zoom:1; }    /*清除浮动*/
+
+.header{
+	height:110px;
+}
+.logo{
+	float:left;
+	margin-left:130px;
+	margin-top:50px;
+	margin-bottom:20px;
+
+}
+.nav{
+	float: right;
+	margin: 50px 150px 0 0;
+}
+.nav ul li{
+	font-size: 1.0em;
+	float: left;
+	margin: 0 20px;
+}
+.nav ul li a{
+	color:#555;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.banner{
+}
+.banner-bg{
+	position: relative;
+	margin-bottom: 0px;
+}
+.banner-bg img{
+	/*clear the gap between div and img*/
+	/*display:block;*/
+	vertical-align: middle;
+}
+.banner-title{
+	position:absolute;
+	left:750px;
+	top:280px;
+	margin-left:-388px;
+}
+.banner-title p{
+	margin-left: 160px;
+	color:#fff;
+}
+.menu{
+	border-top: 5px solid #f34949;
+	position:relative;
+}
+.menu .tips{
+	width:156px;
+	height:75px;
+	position:absolute;
+	left:50%;
+	top:0;
+	margin-left:-78px;
+	background-color: #f34949;
+	color:white;
+}
+.menu .tips{
+	text-align: center;
+	line-height: 65px;
+}
+.tips:after{
+	position:absolute;
+	content:"";
+	left:0;
+	bottom:0;
+	width:0;
+	height:0;
+	border-left: 78px solid transparent;
+	border-right: 78px solid transparent;
+	border-bottom: 10px solid white;
+}
+.lists{
+	width:1200px;
+	margin:150px auto 50px auto;
+}
+.lists .food{
+	float:left;
+}
+
+
+.lists ul li{
+	float:left;
+	margin-left:80px;
+	margin-top:50px;
+}
+.lists ul li .line{
+	float:left;
+	width:100px;
+	margin-right:40px;
+	border-color: #b7b7b7;
+	margin-top:15px;
+
+}
+
+.lists ul li .price{
+	float:left;
+	vertical-align: middle;
+	margin-top:10px;
+
+}
+.lists .ingredient{
+	color:#b7b7b7;
+}
+
+.menu-more-btn{
+	border: 1px solid #D7D5D5 ;
+	width:150px;
+	height:34px;
+	margin:0 auto 100px auto;
+}
+.menu-more-btn a{
+	margin:5px 8px 0px 15px;
+	color: #b7b7b7;
+}
+.menu-more-btn a:hover{
+	text-decoration: underline;
+}
+.menu-more-btn div{
+	margin-top:5px;
+	color: #b7b7b7;
+}
+.featured{
+	width:1170px;
+	margin:0 auto;
+}
+
+
+.featured .line{
+	border-color:grey;
+	margin:12px 15px 0 50px;
+	width:160px;
+	display:block;
+}
+.featured .dishwrap{
+	margin-top:50px;
+}
+.featured .dishes{
+	margin-right:60px;
+}
+.featured .dishes img{
+	display:block;
+	margin-bottom: 30px;
+}
+.featured .price{
+	margin-left:65px;
+}
+.featured .starbar{
+	margin-top:60px;
+}
+.featured .star{
+	width:12px;
+	height:12px;
+	background-image: url("images/star.jpg");
+	display:inline-block;
+
+}
+.featured .unstar{
+	background-position: 0 -12px;
+	
+}
+.gallary{
+	width:1170px;
+	margin:0 auto;
+	margin-top:60px;
+	margin-bottom:100px;
+}
+
+.gallary .line{
+	border-color:grey;
+	margin:12px 15px 80px 50px;
+	width:160px;
+	display:block;
+}
+.gallary .gallary-pic{
+	clear:left;
+}
+.gallary .gallary-mid img{
+	display:block;
+}
+.footer{
+	background-color: #3b3b3b;
+}
+.footer .ny-store{
+	margin:50px;
+	color:white;
+}
+.footer .ny-store p{
+	margin-bottom:15px;
+	margin-left:100px;
+}
+.footer .fr-store{
+	margin:50px;
+	color:white;
+}
+.footer .fr-store p{
+	margin-bottom:15px;
+}
+.footer .others{
+	margin:50px;
+	margin-right:200px;
+}
+.footer .others a{
+	display:block;
+	color:white;
+	margin-bottom: 15px;
+}
+.footer img{
+	margin-top:50px;
+}
+.footer .copyright{
+	margin-top:10px;
+	color:white;
+	line-height:35px;
+	padding-bottom: 50px;
+}
+.line{
+	border-top: 1px solid white;
+	display: inline-block;
+	width:40px;
+	vertical-align: middle;
+}
+.Lline{
+	margin-right:40px;
+}
+.Rline{
+	margin-left:40px;
+}
+.menu-more-btn .icon{
+	width:11px;
+	height:7px;
+	background: url("images/menu_more_btn.jpg") no-repeat;
+	margin:12px 0 0 10px;
+}
+.icon:hover{
+	cursor: pointer;
+}
+.featured .btngroup{
+	margin-right:60px;
+}
+.featured .btn{
+	width:8px;
+	height:8px;
+	border-radius: 50%;
+	background-color: #b7b7b7;
+	float:left;
+	margin-right:20px;
+	
+
+}
+.featured .active{
+	
+	background-color: grey;
+	
+	
+
+}
+
